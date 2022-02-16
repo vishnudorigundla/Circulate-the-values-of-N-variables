@@ -19,13 +19,14 @@ Using l[n:]+l[:n] solve the circulation.
 ### Step 6: 
 End the program.
 
-## Program:
+## Program:-
+```
 def circulate():
     l=[10,20,30,40,50,60]
     n=int(input())
     p=l[n:]+l[:n]
     print("After circulating the values are:",p)
-
+```
 
 ## Output:
 ![nvariables](/img/cat.png)
